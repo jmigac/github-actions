@@ -10,11 +10,12 @@
 	</parent>
 	<groupId>hr.ibmix</groupId>
 	<artifactId>github-actions</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>githubactions</name>
 	<description>Sample project to demonstrate Github actions</description>
 	<properties>
 		<java.version>11</java.version>
+		<start-class>hr.ibmix.githubactions.GithubActionsApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
